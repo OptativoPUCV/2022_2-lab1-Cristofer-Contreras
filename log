@@ -14,3 +14,20 @@ Fri 12 Aug 2022 05:24:05 PM UTC:
  tests:  1|6
 total_score: 10/70
 69cb3ca
+Fri 12 Aug 2022 05:27:19 PM UTC: 
+ exercises.c | 5 +----
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:41:14: error: value computed is not used [-Werror=unused-value]
+   41 |   sumaN(a,n) - sumaN(a,n-m);
+      |   ~~~~~~~~~~~^~~~~~~~~~~~~~
+exercises.c:40:10: error: unused variable ‘tot’ [-Werror=unused-variable]
+   40 |   int i, tot = 0;
+      |          ^~~
+exercises.c:40:7: error: unused variable ‘i’ [-Werror=unused-variable]
+   40 |   int i, tot = 0;
+      |       ^
+cc1: all warnings being treated as errors
+Compilation failed
+fcc2584
