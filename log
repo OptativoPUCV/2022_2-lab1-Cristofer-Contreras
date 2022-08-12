@@ -64,3 +64,14 @@ exercises.c:40:13: error: value computed is not used [-Werror=unused-value]
 cc1: all warnings being treated as errors
 Compilation failed
 65d5b9c
+Fri 12 Aug 2022 05:29:48 PM UTC: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:40:7: error: variable ‘tot’ set but not used [-Werror=unused-but-set-variable]
+   40 |   int tot = 0;
+      |       ^~~
+cc1: all warnings being treated as errors
+Compilation failed
+60b5930
