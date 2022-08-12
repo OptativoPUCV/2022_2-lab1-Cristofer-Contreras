@@ -42,3 +42,14 @@ exercises.c:40:14: error: value computed is not used [-Werror=unused-value]
 cc1: all warnings being treated as errors
 Compilation failed
 dbae9b7
+Fri 12 Aug 2022 05:27:43 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:40:15: error: value computed is not used [-Werror=unused-value]
+   40 |   (sumaN(a,n) - sumaN(a,n-m));
+      |   ~~~~~~~~~~~~^~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+879e8a3
