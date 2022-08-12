@@ -77,7 +77,10 @@ typedef struct {
 } Vector;
 
 Vector * crearVector(int n) {
-   return NULL;
+  Vector* v =(vector*)realloc(sizeof(Vector));
+  v ->capacidad= n
+  
+  return v;
 }
 
 /*
