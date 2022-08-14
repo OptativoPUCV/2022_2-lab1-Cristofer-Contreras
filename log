@@ -342,3 +342,26 @@ Sun 14 Aug 2022 11:38:27 PM UTC:
  tests:  4|3
 total_score: 40/70
 6840b65
+Sun 14 Aug 2022 11:40:44 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘obtenerValor’:
+exercises.c:102:14: error: ‘Vector’ has no member named ‘dats’; did you mean ‘datos’?
+  102 |    return v->dats=[valor];
+      |              ^~~~
+      |              datos
+exercises.c:102:19: error: expected expression before ‘[’ token
+  102 |    return v->dats=[valor];
+      |                   ^
+exercises.c:102:20: error: ‘valor’ undeclared (first use in this function); did you mean ‘valloc’?
+  102 |    return v->dats=[valor];
+      |                    ^~~~~
+      |                    valloc
+exercises.c:102:20: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:103:1: error: control reaches end of non-void function [-Werror=return-type]
+  103 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+af41132
