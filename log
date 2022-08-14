@@ -485,3 +485,9 @@ Sun 14 Aug 2022 11:52:45 PM UTC:
  tests:  8|0
 total_score: 70/70
 2453bc1
+Sun 14 Aug 2022 11:56:17 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  7|1
+total_score: 60/70
+ef6e524
