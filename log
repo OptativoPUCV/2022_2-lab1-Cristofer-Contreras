@@ -194,3 +194,14 @@ Fri 12 Aug 2022 05:48:17 PM UTC:
  tests:  3|4
 total_score: 30/70
 85925cd
+Sun 14 Aug 2022 01:10:45 AM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:80:40: error: ‘capacidad’ undeclared (first use in this function)
+   80 |   Vector* v = (Vector*)calloc(n,sizeof(capacidad));
+      |                                        ^~~~~~~~~
+exercises.c:80:40: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+9ac0bfc
