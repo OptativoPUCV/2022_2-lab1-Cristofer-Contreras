@@ -319,3 +319,9 @@ exercises.c:93:4: error: ‘Vector’ has no member named ‘valor’
       |    ^~
 Compilation failed
 97af223
+Sun 14 Aug 2022 11:35:14 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  6|2
+total_score: 50/70
+8132111
