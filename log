@@ -297,3 +297,9 @@ In file included from test.c:2:
       |              ^~~~~~
 Compilation failed
 542d19b
+Sun 14 Aug 2022 11:30:42 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  4|3
+total_score: 40/70
+aac8174
