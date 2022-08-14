@@ -365,3 +365,22 @@ exercises.c:103:1: error: control reaches end of non-void function [-Werror=retu
 cc1: all warnings being treated as errors
 Compilation failed
 af41132
+Sun 14 Aug 2022 11:40:50 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘obtenerValor’:
+exercises.c:102:20: error: expected expression before ‘[’ token
+  102 |    return v->datos=[valor];
+      |                    ^
+exercises.c:102:21: error: ‘valor’ undeclared (first use in this function); did you mean ‘valloc’?
+  102 |    return v->datos=[valor];
+      |                     ^~~~~
+      |                     valloc
+exercises.c:102:21: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:103:1: error: control reaches end of non-void function [-Werror=return-type]
+  103 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+6d193f2
