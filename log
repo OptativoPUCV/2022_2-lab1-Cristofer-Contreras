@@ -404,3 +404,13 @@ Sun 14 Aug 2022 11:41:15 PM UTC:
  tests:  6|2
 total_score: 50/70
 127f112
+Sun 14 Aug 2022 11:43:53 PM UTC: 
+ exercises.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:113:11: error: invalid operands to binary + (have ‘Vector *’ and ‘Vector *’)
+  113 |     c = a + b;
+      |           ^
+Compilation failed
+b97741c
